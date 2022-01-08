@@ -1,8 +1,8 @@
-namespace: cattle-monitoring-system
+namespace: cert-manager 
 helm:
-  chart: prometheus-community/kube-prometheus-stack
-  repo: https://prometheus-community.github.io/helm-charts 
-  releaseName: rancher-monitoring-crd
-  version: 100.1.0+up19.0.3
-  valuesFiles:
-   - ./values.yaml 
+  chart: jetstack/cert-manager 
+  repo: https://charts.jetstack.io 
+  releaseName: cert-manager 
+  version: v.16.1
+  values:
+    - installCRDs: true 
