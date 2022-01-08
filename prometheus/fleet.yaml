@@ -4,4 +4,4 @@ helm:
   repo: https://prometheus-community.github.io/helm-charts
   releaseName: rancher-monitoring-crd
   valuesFiles:
-   - ./values.yaml 
+  - ./values.yaml 
