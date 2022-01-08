@@ -1,6 +1,7 @@
 namespace: cattle-monitoring-system
 helm:
-  chart: https://support.rancher.cloud/k8s/clusters/c-4cmmx/v1/catalog.cattle.io.clusterrepos/rancher-charts?chartName=rancher-monitoring&link=chart&version=100.1.0%2Bup19.0.3.tgz 
+  chart: kube-prometheus-stack
+  repo: https://prometheus-community.github.io/helm-charts 
   releaseName: rancher-monitoring-crd
   valuesFiles:
   - ./values.yaml 
