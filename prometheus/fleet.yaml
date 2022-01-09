@@ -1,7 +1,7 @@
-defaultNamespace: cert-manager 
+defaultNamespace: cattle-monitoring-system 
 helm:
   chart: kube-prometheus-stack
   repo: https://prometheus-community.github.io/helm-charts 
-  releaseName: cert-manager 
+  releaseName: rancher-monitoring-crd
   valuesFiles:
     - ./values.yaml 
