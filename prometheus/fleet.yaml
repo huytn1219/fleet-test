@@ -1,6 +1,6 @@
 namespace: cert-manager 
 helm:
-  chart: jetstack/cert-manager 
+  chart: cert-manager 
   repo: https://charts.jetstack.io 
   releaseName: cert-manager 
   version: v.16.1
