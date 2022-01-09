@@ -5,4 +5,4 @@ helm:
   releaseName: cert-manager 
   version: v.16.1
   values:
-    - installCRDs: true 
+    installCRDs: true 
