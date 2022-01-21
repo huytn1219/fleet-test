@@ -1,0 +1,7 @@
+namespace: cert-manager
+helm:
+  chart: https://charts.jetstack.io/charts/cert-manager-v1.6.1.tgz
+  releaseName: cert-manager
+values:
+  installCRDs: true
+
