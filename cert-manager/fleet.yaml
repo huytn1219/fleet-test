@@ -1,6 +1,8 @@
-defaultNamespace: cattle-monitoring-system
+defaultNamespace: cert-manager
 helm:
-  releaseName: rancher-monitoring-crd
-  chart: rancher-monitoring-crd
-  repo: https://charts.rancher.io
+  releaseName: cert-manager
+  chart: cert-manager
+  repo: https://charts.jetstack.io
+  values:
+    installCRDs: true
 
