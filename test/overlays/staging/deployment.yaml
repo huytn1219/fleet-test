@@ -2,5 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: the-deployment
-specc:
+spec:
   replicas: 1
