@@ -9,5 +9,5 @@ resources:
 - ../../base
 patchesStrategicMerge:
 - map.yaml
-- deployment.yaml
+#- deployment.yaml
 #- service.yaml
