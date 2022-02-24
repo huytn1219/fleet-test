@@ -5,5 +5,5 @@ resources:
 - service.yaml
 - configmap.yaml
 - kube-dns-cfg.yaml
-- unsealed-secret.yaml
+#- unsealed-secret.yaml
 - sealed-secret.yaml
