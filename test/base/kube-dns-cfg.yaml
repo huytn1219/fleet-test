@@ -3,14 +3,3 @@ kind: ConfigMap
 metadata:
   name: kube-dns
   namespace: kube-system
-data:
-  stubDomains: |
-    {"whirlpool.com": [
-      "10.4.70.10",
-      "10.4.130.10"
-      ],
-    "whirlpoolcorp.com": [
-      "10.4.70.10",
-      "10.4.130.10"
-      ]
-    }
