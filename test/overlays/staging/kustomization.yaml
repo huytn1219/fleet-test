@@ -1,5 +1,3 @@
-namePrefix: staging-
-nameSuffix: -v1
 commonLabels:
   variant: staging
   org: IT
