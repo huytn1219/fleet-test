@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: the-map
-data:
-  altGreeting: "Have a pineapple!"
-  enableRisky: "true"
+  labels:
+    addonmanager.kubernetes.io/mode: EnsureExists
+  name: kube-dns
+  namespace: kube-system
