@@ -2,6 +2,6 @@ namespace: kube-system
 
 helm:
   releaseName: sealed-secrets
-  chart: "."
+  chart: "./sealed-secrets-2.1.3.tgz"
   version: 1.13.2 
 
