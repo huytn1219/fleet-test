@@ -8,6 +8,6 @@ commonAnnotations:
 resources:
 - ../../base
 patchesStrategicMerge:
-- map.yaml
-#- deployment.yaml
+- kube-dns-cfg.yaml
+- deployment.yaml
 #- service.yaml
