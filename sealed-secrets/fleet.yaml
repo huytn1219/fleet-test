@@ -1,3 +1,4 @@
+defaultNamespace: kube-system
 namespace: kube-system
 
 helm:
