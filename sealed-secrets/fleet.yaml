@@ -4,4 +4,8 @@ helm:
   releaseName: sealed-secrets
   chart: ./sealed-secrets 
   version: 1.13.2 
+  timeoutSeconds: 0
+  values:
+    key-renew-period: 0
+
 
