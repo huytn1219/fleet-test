@@ -6,6 +6,6 @@ helm:
   version: 1.13.2 
   timeoutSeconds: 0
   values:
-    key-renew-period: 0
+    keyrenewperiod: 0
 
 
