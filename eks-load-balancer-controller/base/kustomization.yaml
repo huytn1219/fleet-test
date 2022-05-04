@@ -1,3 +1,2 @@
 resources:
-- cert-manager.yaml
 - load-balancer-controller.yaml
