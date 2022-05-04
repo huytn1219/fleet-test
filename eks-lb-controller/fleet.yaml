@@ -1,0 +1,10 @@
+defaultNamespace: kube-system
+helm:
+  releaseName: aws-load-balancer-controller
+  chart: eks
+  repo: https://aws.github.io/eks-charts
+  values:
+    clusterName: jnguyen-eks
+    serviceAccount:
+      create: false
+      name: aws-load-balancer-controller
