@@ -1,6 +1,6 @@
 defaultNamespace: kube-system
 kustomize:
-  dir: ./
+  dir: .
 #helm:
 #  releaseName: aws-load-balancer-controller
 #  chart: aws-load-balancer-controller
