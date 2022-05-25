@@ -8,5 +8,5 @@ helm:
   values:
     clusterName: jnguyen-eks
     serviceAccount:
-      create: false
+      create: true
       name: aws-load-balancer-controller
