@@ -1,12 +1,12 @@
 defaultNamespace: kube-system
 kustomize:
   dir: ./
-helm:
-  releaseName: aws-load-balancer-controller
-  chart: aws-load-balancer-controller
-  repo: https://aws.github.io/eks-charts
-  values:
-    clusterName: jnguyen-eks
-    serviceAccount:
-      create: true
-      name: aws-load-balancer-controller
+#helm:
+#  releaseName: aws-load-balancer-controller
+#  chart: aws-load-balancer-controller
+#  repo: https://aws.github.io/eks-charts
+#  values:
+#    clusterName: jnguyen-eks
+#    serviceAccount:
+#      create: true
+#      name: aws-load-balancer-controller
