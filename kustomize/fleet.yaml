@@ -1,5 +1,0 @@
-namespace: default
-targetCustomizations:
-- name: dev
-  kustomize:
-    dir: overlays/dev

@@ -1,9 +1,0 @@
-namePrefix: dev-
-commonLabels:
-  variant: dev 
-commonAnnotations:
-  note: Hello, I am dev!
-resources:
-- ../../base
-patchesStrategicMerge:
-- map.yaml
