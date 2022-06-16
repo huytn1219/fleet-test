@@ -1,6 +1,6 @@
 namespace: default
 helm:
-  chart: https://github.com/stakater-charts/helloworld/blob/master/helloworld/helloworld-1.0.0.tgz
+  chart: https://github.com/huytn1219/fleet-test/releases/download/1.0.0/helloworld-1.0.0.tgz 
 targetCustomizations:
 - name: dev
   kustomize:
