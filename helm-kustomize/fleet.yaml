@@ -1,0 +1,7 @@
+namespace: default
+helm:
+  chart: https://github.com/stakater-charts/helloworld/blob/master/helloworld/helloworld-1.0.0.tgz
+targetCustomizations:
+- name: dev
+  kustomize:
+    dir: overlays/dev
