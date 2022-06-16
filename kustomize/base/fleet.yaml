@@ -1,0 +1,6 @@
+namespace: default
+targetCustomizations:
+- name: dev
+  clusterSelector:
+    matchLabels:
+      env: jnguyen
