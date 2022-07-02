@@ -1,7 +1,7 @@
-helmCharts:
-- name: cert-manager
+helmChartInflationGenerator:
+- chartName: cert-manager
   releaseName: cert-manager
-  namespace: cert-manager
+  releaseNamespace: cert-manager
   includeCRDs: true
-  version: v1.5.3
-  repo: https://charts.jetstack.io
+  chartVersion: v1.5.3
+  chartRepoUrl: https://charts.jetstack.io
