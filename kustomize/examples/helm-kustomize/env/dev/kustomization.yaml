@@ -1,4 +1,3 @@
-namePrefix: dev-
 commonLabels:
   variant: dev
   org: acmeCorporation
