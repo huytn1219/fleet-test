@@ -9,7 +9,7 @@ spec:
     namespace: cert-manager
     server: 'https://kubernetes.default.svc'
   source:
-    path: kustomize/examples/helm-kustomize/env/dev
+    path: REPLACE-ME 
     repoURL: 'https://github.com/huytn1219/fleet-test.git'
     targetRevision: HEAD
   project: default

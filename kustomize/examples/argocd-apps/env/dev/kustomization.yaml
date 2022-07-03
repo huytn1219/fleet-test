@@ -1,4 +1,10 @@
 namePrefix: dev-
 resources:
 - ../../base
-
+patches:
+- target:
+    group: argoproj.io
+    version: v1alpha1
+    kind: Application
+    name: cert-manager
+  path: repo-path.yaml
