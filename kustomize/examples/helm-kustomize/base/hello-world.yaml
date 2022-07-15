@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: hello-world
+    workload.user.cattle.io/workloadselector: apps.deployment-default-hello-world
+  name: hello-world
+  namespace: hello-world
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      workload.user.cattle.io/workloadselector: apps.deployment-default-hello-world
+  template:
+    metadata:
+      labels:
+        workload.user.cattle.io/workloadselector: apps.deployment-default-hello-world
+    spec:
+      containers:
+      - image: rancher/hello-world
+        imagePullPolicy: Always
+        name: container-0
+        ports:
+        - containerPort: 80
+          name: hello-world-svc
+          protocol: TCP
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-world-svc
+  namespace: hello-world
+spec:
+  ports:
+  - name: hello-world-svc
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    workload.user.cattle.io/workloadselector: apps.deployment-default-hello-world
+  type: ClusterIP
