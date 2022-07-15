@@ -8,3 +8,9 @@ patches:
     kind: Application
     name: hello-world
   path: repo-path.yaml
+- target:
+    group: argoproj.io
+    version: v1alpha1
+    kind: Application
+    name: ingress-nginx
+  path: repo-path.yaml
