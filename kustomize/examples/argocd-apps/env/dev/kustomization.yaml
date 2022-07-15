@@ -6,5 +6,5 @@ patches:
     group: argoproj.io
     version: v1alpha1
     kind: Application
-    name: cert-manager
+    name: hello-world
   path: repo-path.yaml
