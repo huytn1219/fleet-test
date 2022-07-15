@@ -1,2 +1,3 @@
 resources:
 - hello-world.yaml
+- ingress.yaml

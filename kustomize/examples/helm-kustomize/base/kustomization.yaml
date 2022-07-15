@@ -1,3 +1,4 @@
 resources:
 - namespaces.yaml
 - hello-world.yaml
+- ingress.yaml

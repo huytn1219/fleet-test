@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ingress-nginx
+  namespace: argocd
+spec:
+  destination:
+    name: ''
+    namespace: argocd
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: REPLACE-ME
+    repoURL: 'https://github.com/huytn1219/fleet-test.git'
+    targetRevision: HEAD
+  project: default
